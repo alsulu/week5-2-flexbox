@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #header {
+            display: flex;
+            background-color: rgb(224, 224, 224);
+            justify-content: center;
+            height: 50px;
+            align-items: center;
+        }
+        #general {
+            display: flex;
+            flex-direction: row;
+            height: 230px;
+        }
+        #main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;
+            background-color: rgb(255, 248, 227);
+        }
+        p {
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+        #one-two {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 65px;
+            width: 600px;
+        }
+        #one-two article{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 275px;
+        }
+        article {
+            height: 40px;
+            background-color: rgb(254, 234, 185);
+        }
+        #third article {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            width: 600px;
+        }
+        #aside {
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            background-color: rgb(221, 236, 203);
+        }
+        #footer {
+            display: flex;
+            height: 70px;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(224, 224, 224);
+        }
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 250px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">[Шапка страницы]</header>
+    <div id="general">
+        <main id="main">
+            <p>[Основная часть]</p>
+            <div id="one-two">
+                <article>[Ещё 1]</article>
+                <article>[Ещё 2]</article>
+            </div>
+            <div id="third">
+                <article>[Ещё 3]</сlass=>
+            </div>
+        </main>
+        <aside id="aside">
+            <p>[Боковая область]</p>
+        </aside>
+    </div>
+    <footer id="footer">
+        <section>[Секция футера 1]</section>
+        <section>[Секция футера 2]</section>
+        <section>[Секция футера 3]</section>
+        <section>[Секция футера 4]</section>
+    </footer>
+</body>
+</html>
